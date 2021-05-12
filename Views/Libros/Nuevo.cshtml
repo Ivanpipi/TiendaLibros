@@ -1,0 +1,64 @@
+@model Libro
+
+<br>
+
+<h4>Crear libro nuevo</h4>
+
+@using (@Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    //Titulo
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Titulo)
+        @Html.TextBoxFor(x=>x.Titulo,new {@class="form-control"})
+    </div>
+
+    //Autor
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Autor)
+        @Html.TextBoxFor(x=>x.Autor,new {@class="form-control"})
+    </div>
+
+    //Categoria
+
+
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Categoria)
+        @Html.DropDownListFor(x=>x.Categoria,
+    new SelectList(ViewBag.Categorias,"Nombre","Nombre"),"--Seleccionar--",
+    new {@class="form-control"})
+    </div>
+
+    //Año De Salida
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.AñoLanzamiento,"Año de Lanzamiento")
+        @Html.TextBoxFor(x=>x.AñoLanzamiento,new {@class="form-control"})
+    </div>
+
+    //Precio
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Precio)
+        @Html.TextBoxFor(x=>x.Precio,new {@class="form-control"})
+    </div>
+
+    //Subir Imagen
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Foto)
+        <div class="custom-file">
+            @Html.TextBoxFor(x=>x.Foto,new {type="file", @class="form-control custom-file-input"})
+            @Html.LabelFor(x=>x.Foto,"Seleccionar Imagen",new {@class="custom-file-label"})
+        </div>
+    </div>
+
+
+
+    //Boton
+
+    <input type="submit" value="Guardar" class="btn btn-primary" />
+}

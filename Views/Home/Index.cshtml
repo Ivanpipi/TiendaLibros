@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!--- <div class="text-center">
+    <h1 class="display-4">Bienvenido a la mayor tienda de libros electronicos!</h1>
+    <p>Ve a ver nuestro <a href="https://localhost:5001/Libros/Listado">catalogo</a>!</p>
+</div> --->
+
+<br>
+
+<main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide" src="images/carousel3.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1 class="p-3 mb-2 bg-primary  text-white">Tenemos libros sobre drama!</h1>
+                        <p class="p-3 mb-2 bg-primary  text-white">Quizas sos uno de los amantes de la literatura drama
+                            tenemos clasicos
+                            tales como
+                            Mujercitas,Hamlet y mucho mas!.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Registrate hoy!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="images/carousel1.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="p-3 mb-2 bg-primary  text-white">Libros en excelente estado!</h1>
+                        <p class="p-3 mb-2 bg-primary  text-white">Tenemos el libro que estas buscando y lo mejor de
+                            todo
+                            es que la mayoria
+                            de nuestros
+                            ejemplares estan en perfecto estado!.</p>
+                        <p><a class="btn btn-lg btn-primary" href="https://localhost:5001/Libros/Historia"
+                                role="button">Aprende mas
+                                sobre nosotros!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="images/carousel2.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1 class="p-3 mb-2 bg-primary  text-white">Estamos en constante mejora!</h1>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Deja tu CV</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+
+    <br>
+
+
+
+    <div class="container marketing">
+
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/107.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Orgullo y Prejuicio</h2>
+                <p>Orgullo y prejuicio, publicada por primera vez el 28 de enero de 1813 como una obra anónima, es la
+                    más famosa de las novelas de Jane Austen y una de las primeras comedias románticas en la historia de
+                    la novela.</p>
+                <p><a class="btn btn-secondary" href="https://localhost:5001/Libros/Mostrar?idLibro=8" role="button">Ir
+                        a la publicacion &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/108.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>El viejo y el mar</h2>
+                <p>El viejo y el mar es una novela corta escrita por Ernest Hemingway en 1951 en Cabo Blanco y publicada
+                    en 1952. Fue su último trabajo de ficción importante publicado en vida y posiblemente su obra más
+                    famosa</p>
+                <p><a class="btn btn-secondary" href="https://localhost:5001/Libros/Mostrar?idLibro=9" role="button">Ir
+                        a la publicacion &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="images/105.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Las mil y una noche</h2>
+                <p>Las mil y una noches ​ es una recopilación medieval de cuentos tradicionales del Oriente Medio, que
+                    utiliza la forma del relato enmarcado. El núcleo de estas historias está formado por un antiguo
+                    libro persa llamado Hazâr afsâna.</p>
+                <p><a class="btn btn-secondary" href="https://localhost:5001/Libros/Mostrar?idLibro=6" role="button">Ir
+                        a la publicacion &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Beneficios de la lectura <span class="text-muted">Reduce el
+                        estrés.</span></h2>
+                <p class="lead">La lectura puede reducir los niveles de estrés en un 68 %, incluso más que escuchar
+                    música o ir a pasear. Basta con tan solo 6 minutos de lectura para reducir el ritmo cardíaco y la
+                    tensión muscular.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                    alt="Generic placeholder image" src="images/genteLeyendo.jpg">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Beneficios de la lectura <span class="text-muted">Activa la memoria a
+                        corto y largo plazo.</span>
+                </h2>
+                <p class="lead"> Leer una novela implica recordar a los distintos personajes, su origen, sus ambiciones,
+                    historia o matices, así como los diversos giros y subtramas que tejen la historia. Dichos recuerdos
+                    crean nuevas conexiones neuronales y tonifican las ya existentes, lo que contribuye a fortalecer la
+                    memoria a corto plazo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                    alt="Generic placeholder image" src="images/genteLeyendo2.jpg">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Beneficios de la lectura <span class="text-muted">Leer mejora el
+                        sueño.</span></h2>
+                <p class="lead">El uso de un smartphone justo antes de acostarse está relacionado con una duración de
+                    sueño más corta y peor calidad de este. Por el contrario, leer un libro antes de dormir baja tus
+                    niveles de estrés, te relaja y te prepara para un sueño profundo..</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                    alt="Generic placeholder image" src="images/genteLeyendo3.jpg">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">

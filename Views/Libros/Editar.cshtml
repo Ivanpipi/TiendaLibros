@@ -1,0 +1,73 @@
+@model Libro
+
+<h1>Editar Alumno</h1>
+
+
+@using (@Html.BeginForm())
+{
+
+    //Titulo
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Titulo)
+        @Html.TextBoxFor(x=>x.Titulo,new {@class="form-control"})
+        @Html.ValidationMessageFor(x=>x.Titulo,"*",new {@class="text-primary"})
+        @Html.ValidationMessageFor(x=>x.Titulo,"Recuerda que el titulo solo puede contener 35 caracteres",new
+    {@class="text-primary"})
+    </div>
+
+
+
+    //Autor
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Autor)
+        @Html.TextBoxFor(x=>x.Autor,new {@class="form-control"})
+        @Html.ValidationMessageFor(x=>x.Autor,"*",new {@class="text-primary"})
+        @Html.ValidationMessageFor(x=>x.Autor,"Recuerda que el autor solo puede contener 20 caracteres",new
+    {@class="text-primary"})
+    </div>
+
+
+
+
+    //Categoria
+
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Categoria)
+        @Html.TextBoxFor(x=>x.Categoria,new {@class="form-control"})
+    </div>
+
+
+
+    //Año De Salida
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.AñoLanzamiento,"Año de Lanzamiento")
+        @Html.TextBoxFor(x=>x.AñoLanzamiento,new {@class="form-control"})
+        @Html.ValidationMessageFor(x=>x.AñoLanzamiento,"*",new {@class="text-primary"})
+        @Html.ValidationMessageFor(x=>x.AñoLanzamiento,"Recuerda que el año tiene que ser mayor que 1 y menor que 2021",new
+    {@class="text-primary"})
+    </div>
+
+
+
+    //Precio
+
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Precio)
+        @Html.TextBoxFor(x=>x.Precio,new {@class="form-control"})
+        @Html.ValidationMessageFor(x=>x.Precio,"*",new {@class="text-primary"})
+        @Html.ValidationMessageFor(x=>x.Precio,"Recuerda que el precio tiene que ser menor que 9999$!",new
+    {@class="text-primary"})
+    </div>
+
+
+    @Html.ValidationSummary(false,"Errores que te impiden actualizar info:" ,new {@class="text-danger"})
+
+
+
+    <input type="submit" class="btn btn-primary" value="Guardar">
+
+}

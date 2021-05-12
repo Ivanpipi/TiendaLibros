@@ -1,0 +1,45 @@
+@model List<Libro>
+
+<h3>Listado de Libros</h3>
+
+<button class="btn btn-outline-primary">
+    @Html.ActionLink("Ingresar Libro","Nuevo")
+</button>
+
+<table class="table">
+
+    <tr>
+        <th>Imagen</th>
+        <th>Titulo</th>
+        <th>Autor</th>
+        <th>Categoria</th>
+        <th>Año de Lanzamiento</th>
+        <th>Precio</th>
+        <th></th>
+
+    </tr>
+
+    @{
+        int i = 100;
+    }
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src='@Url.Content("/images/"+ i + ".jpg")' class="img-thumbnail" style="width:75px ; height:75px" />
+            </td>
+            <td>@item.Titulo</td>
+            <td>@item.Autor</td>
+            <td>@item.Categoria</td>
+            <td>@item.AñoLanzamiento</td>
+            <td>@item.Precio</td>
+            <td>
+                @Html.ActionLink("Editar","Editar",new {idLibro=item.idLibro},new {@class="btn btn-outline-primary"})
+                @Html.ActionLink("Eliminar","Borrar",new {idLibro=item.idLibro},new {@class="btn btn-outline-primary"})
+            </td>
+        </tr>
+        i++;
+    }
+
+</table>

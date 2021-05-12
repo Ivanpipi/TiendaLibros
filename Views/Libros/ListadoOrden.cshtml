@@ -1,0 +1,60 @@
+@model List<Libro>
+
+
+
+<br>
+
+
+<h3>Listado de Libros</h3>
+
+<br>
+
+
+<div class="pull-right">
+    <button class="btn btn-outline-primary">
+        @Html.ActionLink("Ingresar Libro","Nuevo", new {@class="pull-right"})
+    </button>
+</div>
+
+
+
+
+
+<table class="table">
+
+    <tr class="thead-dark">
+        <th>Imagen</th>
+        <th>@Html.ActionLink("Titulo","ListadoOrden",new {ordenPor="ordenporTitulo"})</th>
+        <th>@Html.ActionLink("Autor","ListadoOrden",new {ordenPor="ordenporAutor"})</th>
+        <th>@Html.ActionLink("Genero","ListadoOrden",new {ordenPor="ordenporCategoria"})</th>
+        <th>@Html.ActionLink("Año","ListadoOrden",new {ordenPor="ordenporAño"})</th>
+        <th>@Html.ActionLink("Precio","ListadoOrden",new {ordenPor="ordenporPrecio"})</th>
+        <th></th>
+    </tr>
+
+    @{
+        int i = 100;
+    }
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src='@Url.Content("~/images/"+ @item.FotoRuta)' class="img-thumbnail"
+                style="width:75px ; height:75px" />
+            </td>
+            <td>@item.Titulo</td>
+            <td>@item.Autor</td>
+            <td>@item.Categoria</td>
+            <td>@item.AñoLanzamiento</td>
+            <td>@item.Precio</td>
+            <td>
+                @Html.ActionLink("Editar","Editar",new {idLibro=item.idLibro},new {@class="btn btn-outline-primary"})
+                @Html.ActionLink("Eliminar","Borrar",new {idLibro=item.idLibro},new {@class="btn btn-outline-primary"})
+            </td>
+        </tr>
+        i++;
+    }
+
+</table>

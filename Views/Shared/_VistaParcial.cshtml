@@ -1,0 +1,8 @@
+@model Libro
+
+<h4>Chequeo ID del Libro</h4>
+
+<div class="form-group">
+    @Html.LabelFor(x => x.idLibro,"Codigo ID: ")
+    @Html.TextBoxFor(x => x.idLibro,new{@class="form-control", @readonly= "readonly"})
+</div>
