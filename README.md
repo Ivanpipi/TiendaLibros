@@ -1,5 +1,9 @@
 # TiendaLibros
 
+Futura Implementacion:
+Base de datos
+
+
 Que cosas aprendi en este proyecto:
 
 * ASP.NET.MVC
@@ -9,6 +13,9 @@ Que cosas aprendi en este proyecto:
 ----------------------------------------
 
 # Bookstore
+
+Future Implementation:
+Database
 
 What things i learned in this project:
 
