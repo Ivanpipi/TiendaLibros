@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
+  "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,78 +15619,78 @@
   "RootNamespace": "TiendaLibros",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Historia.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Historia.cshtml",
       "TargetPath": "Views\\Libros\\Historia.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Mostrar.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Mostrar.cshtml",
       "TargetPath": "Views\\Libros\\Mostrar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\ListadoOrden.cshtml",
-      "TargetPath": "Views\\Libros\\ListadoOrden.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_VistaParcial.cshtml",
-      "TargetPath": "Views\\Shared\\_VistaParcial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Nuevo.cshtml",
-      "TargetPath": "Views\\Libros\\Nuevo.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Listar.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Listar.cshtml",
       "TargetPath": "Views\\Libros\\Listar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Nuevo.cshtml",
+      "TargetPath": "Views\\Libros\\Nuevo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Editar.cshtml",
-      "TargetPath": "Views\\Libros\\Editar.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\ListadoOrden.cshtml",
+      "TargetPath": "Views\\Libros\\ListadoOrden.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\ListadoPaginado.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\ListadoPaginado.cshtml",
       "TargetPath": "Views\\Libros\\ListadoPaginado.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Libros\\Editar.cshtml",
+      "TargetPath": "Views\\Libros\\Editar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\_VistaParcial.cshtml",
+      "TargetPath": "Views\\Shared\\_VistaParcial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj": {}
+    "C:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj": {
+    "C:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
         "projectName": "TiendaLibros",
-        "projectPath": "C:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
+        "projectPath": "C:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\TiendaLibros.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan\\Desktop\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\obj\\",
+        "outputPath": "C:\\Users\\Ivan\\Desktop\\Proyectos Personales\\TiendaLibros\\PARCIAL 1 - Ivan Pipitone\\TiendaLibros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
               "version": "[8.0.7, )"
